@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My spring 2019 gallery</title>
+	<script type="text/javascript" src="gallery.js"></script>
+	<style type="text/css">
+	
+	#elephant {
+		width: 500px;
+		height:300px;
+   }
+
+   #horse {
+   	    width: 500px;
+   	    height: 300px;
+   }
+   #rhino {
+   	   width: 500px;
+   	   height: 300px;
+   }
+   #lion {
+   	  width: 500px;
+   	  height: 300px;
+   }
+   #zebra {
+   	  width: 500px;
+   	  height: 300px;
+   }
+   body{
+   	background-color: grey;
+
+   }
+
+	</style>
+   
+	
+
+</head>
+<body>
+	<!--overall.slideshow.-->
+<div class="slideshow">
+	<!--.slide.1.-->
+	<div class = slide>
+	  <h2>slide 1</h2>
+	  <img id= "elephant" src="gallery/elephant.jpg" alt="image of an elephant"/>
+	  <div class="caption">African wildlife(Elephant)</div>
+	</div>
+
+
+	<!--.slide.2.-->
+	<div class = slide>
+	  <h2>slide 2</h2>
+	  <img id="horse" src="gallery/horse.jpg" alt="image of a horse"/>
+	  <div class="caption">African wildlife(horse)</div>
+	</div>
+
+
+
+	<!--.slide.3.-->
+	<div class = slide>
+	  <h2>slide 3</h2>
+	  <img id="rhino" src="gallery/rhino.jpg" alt="image of a rhino"/>
+	  <div class="caption">African wildlife(rhino)</div>
+	</div>
+
+	<!--.slide.4.-->
+	<div class = slide>
+	  <h2>slide 4</h2>
+	  <img id="lion" src="gallery/lion.jpg" alt="image of a cub"/>
+	  <div class="caption">African wildlife(cub)</div>
+	</div>
+
+	<!--.slide.5.-->
+	<div class = slides>
+	  <h2>slide 5</h2>
+	  <img id="zebra" src="gallery/zebra1.jpg" alt=" image of a zebra"/>
+	  <div class="caption">African wildlife(zebra)</div>
+	</div>
+
+<div>
+<!--.end of slideshow.-->
+<!--.start.button.-->
+<div.class="button"	>
+     <!--.previous . button-->
+     <button type="button" class="next"></button>
+     <!--next button.-->
+     <button type="button" class="previous"></button>
+</div>
+
+<script>
+	var slideShow - 0;
+var slide = [];
+var time = 1000;
+
+
+//image list
+images[0] = 'slide';
+images[1] = 'slide';
+images[2] = 'slide';
+images[3] = 'slide';
+images[4] = 'slide';
+
+//function to change the image
+function changeImg(){
+	document.slideShow.src =gallery[]
+	if(slide < images.length - 1){
+		slide++;
+	} else {
+		slide = 0;
+	}
+}
+
+setTimeout("changeImg()", time);
+window.onload = changeImg;
+
+
+</script>
+
+
+</body>
+</html>
+
