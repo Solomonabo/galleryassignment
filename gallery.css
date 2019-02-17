@@ -1,0 +1,25 @@
+	#elephant {
+		width: 500px;
+		height:300px;
+   }
+
+   #horse {
+   	    width: 500px;
+   	    height: 300px;
+   }
+   #rhino {
+   	   width: 500px;
+   	   height: 300px;
+   }
+   #lion {
+   	  width: 500px;
+   	  height: 300px;
+   }
+   #zebra {
+   	  width: 500px;
+   	  height: 300px;
+   }
+   body{
+   	background-color: grey;
+
+   }

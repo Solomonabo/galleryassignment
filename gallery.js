@@ -12,7 +12,7 @@ images[4] = 'slide';
 
 //function to change the image
 function changeImg(){
-	document.slideShow.src =gallery[]
+	document.slideShow.src = galleryassignment[]
 	if(slide < images.length - 1){
 		slide++;
 	} else {
